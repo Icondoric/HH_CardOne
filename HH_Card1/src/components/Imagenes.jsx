@@ -1,5 +1,5 @@
 import React from 'react'
-import 'Imagenes.css'
+import './Styles/Imagenes.css'
 function imagen(props) 
 {
     const image=props.image;
@@ -8,5 +8,4 @@ function imagen(props)
             <img src={image.imgUrl} alt={image.imgUrl} />
         </section>
     )
-    
-}
+}   
