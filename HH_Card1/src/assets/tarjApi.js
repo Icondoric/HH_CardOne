@@ -3,7 +3,7 @@ export const hotel = [
         title: "",
         description: "",
         imgIrl: "",
-        button:"",
+        button:"4.92",
         theme:"",
     },
     {

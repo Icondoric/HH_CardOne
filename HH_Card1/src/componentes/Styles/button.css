@@ -1,0 +1,17 @@
+.heart-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    border: 2px solid grey;
+    padding: 13px 16px;
+    display: flex;
+    cursor: pointer;
+}
+.content .heart-btn{
+    height: 90px;
+    width: 90px;
+    background: url("http://www.w3.org/2000/svg");
+}
