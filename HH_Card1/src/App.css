@@ -1,8 +1,3 @@
-.p {
-  background-color: blue;
-  font-size: 400px;
-
-}
 .Encabezado {
   display: flex;
   background-color: bisque;
@@ -13,4 +8,18 @@
   top: 60px;
   left: 311px;
   border-radius: 50%;
+}
+.h2 {
+  background: #A1A7B0;
+  width: 81px
+  height: 20px
+  top: 56px
+  left: 24px
+}
+.p {
+  background: #464646;
+  width: 86px
+  height: 24px
+  top: 80px
+  left: 24px
 }
