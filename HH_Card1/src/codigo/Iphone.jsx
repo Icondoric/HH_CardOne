@@ -4,6 +4,7 @@ import Imagenes from '../components/Imagenes';
 import Bar from '../components/Bar';
 import SearchBar from './SearchBar';
 import Navbar from './Navbar';
+import Encabezado from '../componentes/Encabezado';
 function Iphone() {
   const estiloIphone = {
     width: '375px',
@@ -15,27 +16,26 @@ function Iphone() {
     flexDirection: 'column',
     border: '2px solid #000',
     position: 'relative', // Establece la posición en "relative"
+
+    
   };
   const estiloContenido = {
     flex: 1,
     overflow: 'auto',
   };
 
-  const estiloBar = {
-    position: 'absolute',
-    bottom: '0',
-    width: '100%',
-  };
+
 
   return (
     <div style={estiloIphone}>
       <BarraEstado />
+      <Encabezado/>
       <SearchBar/>
       <Navbar/>
       <div style={estiloContenido}>
         <Imagenes />
       </div>
-      <Bar style={estiloBar} />
+      <Bar  />
     </div>
   );
 }
