@@ -1,9 +1,9 @@
 .imagen {
+  position: absolute;
   width: 40px;
   height: 40px;
   top: 60px;
   left: 311px;
-  border-radius: 50%;
 }
 .h2 {
   background: #A1A7B0;
@@ -25,4 +25,5 @@
   height: 6px;
   top: 91px;
   left: 122px;
+  right: 20px;
 }
