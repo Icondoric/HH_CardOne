@@ -4,7 +4,6 @@ import "./App.css";
 function SearchBar() {
   return (
     <div className="search-bar-container">
-      <div className="search-icon"></div>
       <input
         className="search-input"
         type="text"
