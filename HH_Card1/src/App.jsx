@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import {places} from './assets/placesAPI'
-import Codigo from './codigo/Codigo'
-import './App.css'
+import React from 'react';
+import Marco from './codigo/Marco'; // Asegúrate de que la ruta sea correcta
 
 function App() {
-
   return (
-   <Codigo places={places}/>
-  )
+    <div className="App">
+      <Marco /> {/* Usa el componente Marco aquí */}
+    </div>
+  );
 }
 
-export default App
+export default App;

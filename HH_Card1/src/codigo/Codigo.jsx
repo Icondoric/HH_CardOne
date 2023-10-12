@@ -4,7 +4,9 @@ function Codigo(promps) {
     const places=promps.places
 
   return (
-    <div>Codigo</div>
+    <div>Codigo ghaa
+      
+    </div>
   )
 }
 
