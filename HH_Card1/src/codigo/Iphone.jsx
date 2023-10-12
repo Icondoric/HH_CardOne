@@ -3,6 +3,7 @@ import BarraEstado from './BarraEstado'; // Importa el componente BarraEstado
 import Imagenes from '../components/Imagenes';
 import Bar from '../components/Bar';
 import SearchBar from './SearchBar';
+import Navbar from './Navbar';
 function Iphone() {
   const estiloIphone = {
     width: '375px',
@@ -30,6 +31,7 @@ function Iphone() {
     <div style={estiloIphone}>
       <BarraEstado />
       <SearchBar/>
+      <Navbar/>
       <div style={estiloContenido}>
         <Imagenes />
       </div>

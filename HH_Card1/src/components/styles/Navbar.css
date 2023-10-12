@@ -1,0 +1,36 @@
+/* Navbar.css */
+/* Navbar.css */
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px; /* Aumenta el espacio interno para hacer la barra más grande */
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #888; /* Cambia el color del texto a gris (#888) */
+    font-weight: bold; /* Puedes ajustar el grosor del texto si es necesario */
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .active {
+    color: #000; /* Cambia el color del texto a negro (#000) para el elemento activo */
+  }
+  
