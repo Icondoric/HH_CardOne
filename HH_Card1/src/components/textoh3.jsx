@@ -12,6 +12,6 @@ function TextH3(frase) {
   );
 }
 /*<FontAwesomeIcon icon="fa-light fa-bed-front" /> para el icono de cama */
-/*<FontAwesomeIcon icon="fa-solid fa-arrows-maximize" /> para el icono de espacio tamaño */
+/*<FontAwesomeIcon icon="fa-solid fa-arrows-maximize" /> para el icono de espacio tamaño eree*/
 
 export default TextH3;
