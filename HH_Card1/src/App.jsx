@@ -1,10 +1,11 @@
 import React from 'react';
-import Marco from './codigo/Marco'; // Asegúrate de que la ruta sea correcta
+import Iphone from './codigo/Iphone'; // Importa el componente Iphone
+import BarraEstado from './codigo/BarraEstado'; // Importa el componente BarraEstado
 
 function App() {
   return (
     <div className="App">
-      <Marco /> {/* Usa el componente Marco aquí */}
+      <Iphone /> {/* Usa el componente Iphone que ya incluye la BarraEstado */}
     </div>
   );
 }
