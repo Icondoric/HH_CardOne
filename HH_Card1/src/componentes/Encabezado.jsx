@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 
 function Encabezado() {
   return (
@@ -10,9 +11,9 @@ function Encabezado() {
         <p>
           Indonesia
         </p>
-        <i cal></i>
+        <img src="http://www.w3.org/2000/svg" alt="Icono pa bajar" />
       </div>
-      <div className='img'>
+      <div className='imagen'>
         <img src="http://www.w3.org/2000/svg" alt="Imagen" />
       </div>
     </article>
