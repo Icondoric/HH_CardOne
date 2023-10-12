@@ -1,0 +1,48 @@
+.bar {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rectangulo-azul {
+    background-color: var(--Light-Blue-bar);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 327px;
+    height: 72px;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+img {
+    max-width: 100px;
+}
+.casita-container {
+    position: relative;
+}
+
+.casita-container img {
+    position: relative;
+    top: 3px;
+}
+.Vectorhome1 {
+    position: relative;
+    transform: translate(-175%, -1%); /* Centra el elemento en su contenedor */
+}
+.engranaje-container {
+    position: relative;
+}
+
+.engranaje-container img {
+    position: relative;
+    top: 3px;
+}
+.Vectoreng1 {
+    position: relative;
+    transform: translate(-200%, -100%); /* Centra el elemento en su contenedor */
+}
