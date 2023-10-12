@@ -1,6 +1,6 @@
 import React from 'react';
 import BarraEstado from './BarraEstado'; // Importa el componente BarraEstado
-
+import Imagenes from '../components/Imagenes';
 function Iphone() {
   const estiloIphone = {
     width: '375px',
@@ -15,6 +15,7 @@ function Iphone() {
   return (
     <div style={estiloIphone}>
       <BarraEstado /> {/* Agrega la barra de estado con la hora */}
+      <Imagenes/>
     </div>
   );
 }

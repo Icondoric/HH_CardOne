@@ -6,12 +6,10 @@ import './App.css'
 import Imagenes from './components/Imagenes'
 
 function App() {
-
   return (
-    <div>
-      <Imagenes/>
+    <div className="App">
+      <Iphone/>{}
     </div>
   )
 }
-
-export default App;
+export default App
