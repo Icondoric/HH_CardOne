@@ -28,6 +28,7 @@ function BarraEstado() {
     fontWeight: 'bold',
   };
   const horaFormateada = hora.toLocaleTimeString();
+  //que solo muestre minutos
 //  const horaFormateada = hora.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
   return (
