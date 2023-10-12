@@ -1,14 +1,13 @@
 import React from 'react'
 import '../App.css'
-
+import './styles/Encabezado.css'
 function Encabezado() {
   return (
-    <article>
-      <div className='Encabezado'>
-        <p><b>You are here</b></p>
-        <p>
-          Indonesia
-        </p>
+    <article className='Encabezado'>
+      <div>
+        <p>You are here</p>
+        <p1><b>Indonesia</b></p1>
+
         <img src="./Arrow.jpg" alt="Icono pa bajar" />
       </div>
       <div className='imagen'>
